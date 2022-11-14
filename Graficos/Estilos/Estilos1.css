@@ -1,0 +1,58 @@
+﻿*  { margin:5px; }
+
+body {
+    font-family: 'Century Gothic', 'Segoe UI', Verdana;
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+    background-color: #e6eff8;
+}
+
+#Cabecera {
+    border: 1px solid blue;
+    background-color: #d8d554;
+    padding: 10px;
+    text-align: right;
+}
+
+    #Cabecera img {
+        width: 70px;
+    }
+
+#ZonaI {
+    float: left;
+    border: 1px solid rgb(214, 219, 233);
+    width: 200px;
+    background-color: #eae1e1;
+    padding: 10px;
+}
+
+#Cuerpo {
+    margin-left: 235px;
+    margin-top: 10px;
+    border: 1px solid #4cff00;
+    background-color: #f9fabc;
+    padding: 10px;
+}
+
+#Pie {
+    clear:both;
+    border: 1px solid #b200ff;
+    background-color: #eefbc6;
+    padding: 10px;
+
+}
+
+.Titulo {
+    font-size:20pt;
+    font-weight:bold;
+}
+
+.GraficosAgrupados {
+    border:1px double blue;
+    font-size:small;
+    width:70%;
+}
+
+    .GraficosAgrupados figcaption {
+        border:1px dashed green;
+    }

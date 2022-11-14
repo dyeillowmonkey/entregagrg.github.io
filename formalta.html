@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #provincia{
+            margin-left: 70px;
+            
+        }
+        #coral{
+            background-color: rgb(255, 116, 65);
+        }
+        #naranja{
+            background-color: rgb(206, 137, 10);
+        }
+        div{
+            padding: 3px;
+        }
+        footer{
+        margin-top:10%;
+        border: 1px solid;
+        text-align: end end;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        position: absolute;
+    }
+    #atras{
+        border: 1px solid black;
+            border-radius: 3px;
+            box-shadow: 1px 1px 1px black;
+            text-decoration: none;
+            color: black;
+            background-color: rgb(194, 184, 184);
+            padding: 2px;
+    }
+    #adelante{
+        border: 1px solid black;
+            border-radius: 3px;
+            box-shadow: 1px 1px 1px black;
+            text-decoration: none;
+            color: black;
+            background-color: rgb(194, 184, 184);
+            padding: 2px;
+    }
+    </style>
+</head>
+<body>
+
+    <form action="">
+    <fieldset id="naranja">
+        <legend>Datos particulares</legend>
+        <table>
+            <tr>
+                <td><label for="nombre">Nombre</label>
+                <input type="text"></td>
+                <td><label for="apellidos">Apellidos</label>
+                <input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="nombre">Fecha de nacimiento</label>
+                <input type="date"></td>
+                <td><label for="mail">Correo</label>
+                <input type="email"></td>
+            </tr>
+            <tr>
+                <td><label for="dni">DNI</label>
+                <input type="text" pattern="[Az-az]{9}"></td>
+                <td><label for="aphone">Teléfono</label>
+                <input type="number"></td>
+            </tr>
+            <tr>
+                <td><label for="nombre">Sexo</label>
+                <input type="radio"/>Hombre <input type="radio"/>mujer</td> 
+            </tr> 
+            <tr>
+                <td><label id="provincia" for="provincia">Provincia de nacimiento</label>
+                <select name="provincia" id="provincia2">
+                    <optgroup>
+                        <option value="1"></option>
+                        <option value="2">Madrid</option>
+                        <option value="3">Segovia</option>
+                        <option value="4">hola</option>
+                    </optgroup>
+                </select> </td>
+                
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+    <fieldset id="coral">
+        <legend>Datos adicionales</legend>
+        <table>
+            <tr>
+                <td>dispositivos electrónicos disponibles en el hogar</td>
+            </tr>
+            <table>
+                <tr>
+                    <td><input type="checkbox"/>PC</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"/>Tableta</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"/>Móvil</td>
+                </tr>
+                <tr>
+                    <td><label for="estudios">Estudios completados</label>
+                    <input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="ingles">Nivel de ingles del 1 al 10</label>
+                    <input type="range" min="1" max="10"></td>
+                </tr>
+                <tr>
+                    <td><label for="editor">Editor de HTML favorito</label>
+                    <input type="text"></td>
+                </tr>
+        </table>
+    </fieldset>
+    <div>
+    <input type="submit">
+    <input type="reset" value="Borrar">
+</div>
+</form>
+<footer>
+    <a href="formacceso.html" id="atras">Atras</a>
+    -------------------------------------------------------------------------
+    <a href="" id="adelante">Pulsa el botón anterior para volver al inicio.</a>
+    </footer> 
+</body>
+</html>
